@@ -2,9 +2,9 @@
 layout: post
 title:  테스트용으로 작성한 글입니다.
 description: 테스트용으로 작성한 글입니다.
-date:   2018-04-21 15:01:35 +0300
+date:   2023-01-20 10:06:00 +0900
 image:  '/images/20.jpg'
-tags:   [lifestyle, rest, nature]
+tags:   [lifestyle]
 ---
 한국어로 적으면 어떻게 보일까 테스트해보기로 했습니다.
 
