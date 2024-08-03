@@ -37,67 +37,64 @@
     4.4-Contact Page
 <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-
-@import '0-settings/variables';
-@import '0-settings/mixins';
-@import '0-settings/helpers';
-
+@import "0-settings/variables";
+@import "0-settings/mixins";
+@import "0-settings/helpers";
 
 /* =======================
 :: 1-Tools and Libs
 ======================= */
 /* >>>>>>>>>>>>>> :: 1.1-Normalize <<<<<<<<<<<<<<< */
-@import '1-tools/normalize';
+@import "1-tools/normalize";
 /* >>>>>>>>>>>>>> :: 1.2-Reset <<<<<<<<<<<<<<< */
-@import '1-tools/reset';
+@import "1-tools/reset";
 /* >>>>>>>>>>>>>> :: 1.3-Shared <<<<<<<<<<<<<<< */
-@import '1-tools/shared';
+@import "1-tools/shared";
 /* >>>>>>>>>>>>>> :: 1.4-Syntax Highlighting <<<<<<<<<<<<<<< */
-@import '1-tools/syntax-highlighting';
+@import "1-tools/syntax-highlighting";
 /* >>>>>>>>>>>>>> :: 1.5-Grid <<<<<<<<<<<<<<< */
-@import '1-tools/grid';
+@import "1-tools/grid";
 /* >>>>>>>>>>>>>> :: 1.6-Zoom <<<<<<<<<<<<<<< */
-@import '1-tools/zoom';
+@import "1-tools/zoom";
 /* >>>>>>>>>>>>>> :: 1.7-Animate <<<<<<<<<<<<<<< */
-@import '1-tools/animate';
-
+@import "1-tools/animate";
 
 /* =======================
 :: 2-Base Styles
 ======================= */
 /* >>>>>>>>>>>>>> :: 2.1-Base <<<<<<<<<<<<<<< */
-@import '2-base/base';
-
+@import "2-base/base";
 
 /* =======================
 :: 3-Modules
 ======================= */
 /* >>>>>>>>>>>>>> :: 3.1-Hero <<<<<<<<<<<<<<< */
-@import '3-modules/hero';
+@import "3-modules/hero";
 /* >>>>>>>>>>>>>> :: 3.2-Scroll Button Top <<<<<<<<<<<<<<< */
-@import '3-modules/scroll-button-top';
+@import "3-modules/scroll-button-top";
 /* >>>>>>>>>>>>>> :: 3.3-Header <<<<<<<<<<<<<<< */
-@import '3-modules/header';
+@import "3-modules/header";
 /* >>>>>>>>>>>>>> :: 3.4-Search <<<<<<<<<<<<<<< */
-@import '3-modules/search';
+@import "3-modules/search";
 /* >>>>>>>>>>>>>> :: 3.5-Pagination <<<<<<<<<<<<<<< */
-@import '3-modules/pagination';
+@import "3-modules/pagination";
 /* >>>>>>>>>>>>>> :: 3.6-Footer <<<<<<<<<<<<<<< */
-@import '3-modules/footer';
+@import "3-modules/footer";
 /* >>>>>>>>>>>>>> :: 3.7-Social Links <<<<<<<<<<<<<<< */
-@import '3-modules/social-links';
+@import "3-modules/social-links";
 /* >>>>>>>>>>>>>> :: 3.8-Buttons <<<<<<<<<<<<<<< */
-@import '3-modules/buttons';
-
+@import "3-modules/buttons";
 
 /* =======================
 :: 4-Layouts
 ======================= */
 /* >>>>>>>>>>>>>> :: 4.1-Home Page <<<<<<<<<<<<<<< */
-@import '4-layouts/home-page';
+@import "4-layouts/home-page";
 /* >>>>>>>>>>>>>> :: 4.2-Post <<<<<<<<<<<<<<< */
-@import '4-layouts/post';
+@import "4-layouts/post";
 /* >>>>>>>>>>>>>> :: 4.3-Tags Page <<<<<<<<<<<<<<< */
-@import '4-layouts/tags-page';
+@import "4-layouts/tags-page";
 /* >>>>>>>>>>>>>> :: 4.4-Contact Page <<<<<<<<<<<<<<< */
-@import '4-layouts/contact-page';
+@import "4-layouts/contact-page";
+
+@import "minimal-mistakes/syntax_gruvbox.dark";
